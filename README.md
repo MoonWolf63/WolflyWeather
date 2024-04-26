@@ -30,10 +30,7 @@ Make sure that the longitude and latitude are changed to reflect the proper loca
 Also make sure to change the weatherAPIKey variable to your api key from tomorrow.io.
 
 # Usage
-To start using the plugin, make sure your Omegga server is running, and place the plugin in the appropriate directory as per the Omegga documentation. The plugin will automatically start fetching weather data and updating the environment once activated.
+To start using the plugin, make sure your Omegga server is running, and place the plugin in the appropriate directory as per the Omegga documentation. Once that is done, enter the web panel and enter the apikey, longitude, and latitude. The plugin will automatically start fetching weather data and updating the environment once activated.
 
 # Support
 If you encounter any issues or have suggestions, please file an issue on the GitHub repository. I know my code isn't exactly the best but hey, it worked didn't it?
-
-# Keep in mind
-I'm very lazy and not good with configuration so this is the best that I can currently do. Maybe I'll eventually fix it but for now we have this.
