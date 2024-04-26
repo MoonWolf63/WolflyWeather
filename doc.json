@@ -1,5 +1,22 @@
 {
     "name": "WolflyWeather",
     "description": "A weather system that uses live data",
-    "author": "Moon Wolf"
+    "author": "Moon Wolf",
+    "config": {
+      "apikey": {
+        "description": "Your api key from tomorrow.io",
+        "type":"string",
+        "default":"null"
+      },
+      "Latitude":{
+        "description":"The latitude of the place you want to use",
+        "type":"number",
+        "default":0
+      },
+      "Longitude": {
+        "description":"The longitude of the place you want to use",
+        "type":"number",
+        "default":0
+      }
+    }
   }

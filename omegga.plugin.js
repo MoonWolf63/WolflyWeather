@@ -5,8 +5,8 @@ class WeatherSyncPlugin {
     this.omegga = omegga;
     this.config = config;
     this.store = store;
-    this.weatherAPIKey = 'APIKEY'; // Your Tomorrow.io API key
-    this.weatherEndpoint = `https://api.tomorrow.io/v4/timelines?location=LONGITUDE,LATITUDE&fields=precipitationType,precipitationIntensity,cloudCover,visibility&units=imperial&apikey=${this.weatherAPIKey}`;
+    this.weatherAPIKey = this.config.apikey; // Your Tomorrow.io API key
+    this.weatherEndpoint = `https://api.tomorrow.io/v4/timelines?location=${this.config.Latitude},${this.config.Longitude}&fields=precipitationType,precipitationIntensity,cloudCover,visibility&units=imperial&apikey=${this.weatherAPIKey}`;
   }
 
   async fetchWeatherData() {
