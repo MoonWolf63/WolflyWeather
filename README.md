@@ -19,8 +19,8 @@ This plugin for Omegga that dynamically adjusts in-game weather and time based o
 
 1. **Clone the Plugin**:
    ```bash
-   git clone https://github.com/yourusername/weather-sync-plugin.git
-   cd weather-sync-plugin
+   git clone https://github.com/MoonWolf63/WolflyWeather.git
+   cd cd WolflyWeather
 2. **install dependencies**
     ```bash
     npm install
